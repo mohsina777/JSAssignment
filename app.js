@@ -167,3 +167,16 @@ for (var i = 1; i <= 10; i++) {
     document.write("4 x " + i + " = " + 4 * i + "<br>");
 }
 document.write(" <br> <br> <br>");
+
+
+var inpcel = +prompt("Enter Temperature in Celcius", "38");
+
+var outfar = ((inpcel * 9 / 5) + 32);
+
+document.write(inpcel + " C is " + outfar + " F " + "<br>");
+
+var inpfar = +prompt("Please Enter Temperature in Fahrenheit", "103");
+
+var outcel = ((inpfar - 32) * 5 / 9);
+
+document.write(inpfar + " F is " + outcel + " C " + "<br>");
