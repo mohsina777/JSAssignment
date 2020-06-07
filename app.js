@@ -50,7 +50,8 @@
      var age = 15;
      alert("I am " + age + " year old");
 
-//var count = document.l
+     var N = 14;
+     alert("You have visited this site " + N + " times")
 
      var birthYear = 1994;
      document.write("My birth years is " + birthYear + "<br>");
@@ -69,4 +70,4 @@
 
 //VARIABLE NAMES: LEGAL & ILLEGAL
 
-var va
+     var RP, MRP, SRP;
