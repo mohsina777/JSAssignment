@@ -269,36 +269,36 @@ document.write(" <br> <br> <br>");
 
 
 
-var a = +prompt("Enter Value of Variable a", "10")
-document.write("Result" + "<br>")
-document.write("The Value of Variable a is: " + a + "<br>")
-document.write("-------------------------------------" + "<br><br>")
-a = ++a
-document.write("The Value of ++a is: " + a + "<br>")
-document.write("Now the Value of ++a is: " + a + "<br><br>")
-a = a++
-document.write("The Value of a++ is: " + a + "<br>")
+var a = +prompt("Enter Value of Variable a", "10");
+document.write("Result" + "<br>");
+document.write("The Value of Variable a is: " + a + "<br>");
+document.write("-------------------------------------" + "<br><br>");
+a = ++a;
+document.write("The Value of ++a is: " + a + "<br>");
+document.write("Now the Value of ++a is: " + a + "<br><br>");
+a = a++;
+document.write("The Value of a++ is: " + a + "<br>");
 a = a + 1
-document.write("Now the Value of a is: " + a + "<br><br>")
-a = --a
-document.write("The Value of --a is: " + a + "<br>")
-document.write("Now the Value of a is: " + a + "<br><br>")
-a = a--
-document.write("The Value of --a is: " + a + "<br>")
-a = a - 1
-document.write("Now the Value of a is: " + a + "<br><br>")
+document.write("Now the Value of a is: " + a + "<br><br>");
+a = --a;
+document.write("The Value of --a is: " + a + "<br>");
+document.write("Now the Value of a is: " + a + "<br><br>");
+a = a--;
+document.write("The Value of --a is: " + a + "<br>");
+a = a - 1;
+document.write("Now the Value of a is: " + a + "<br><br>");
 
 
 document.write(" <br> <br> <br>");
 
 
 var a = 2, b = 1;
-document.write("Value of a is: " + a + "<br>")
-document.write("Value of b is: " + b + "<br>")
-var result = --a - --b + ++b + b--
-document.write("Value of --a at first stage is: 1" + "<br>")
-document.write("Value of --b at Second stage is: 0" + "<br>")
-document.write("Value of --a - --b at Second stage is: 1" + "<br>")
-document.write("Value of --a - --b + ++b at Third stage is: 2" + "<br>")
-document.write("Value of --a - --b + ++b + b-- at forth stage is: 3" + "<br>")
-document.write("Final Result is: " + result)
+document.write("Value of a is: " + a + "<br>");
+document.write("Value of b is: " + b + "<br>");
+var result = --a - --b + ++b + b--;
+document.write("Value of --a at first stage is: 1" + "<br>");
+document.write("Value of --b at Second stage is: 0" + "<br>");
+document.write("Value of --a - --b at Second stage is: 1" + "<br>");
+document.write("Value of --a - --b + ++b at Third stage is: 2" + "<br>");
+document.write("Value of --a - --b + ++b + b-- at forth stage is: 3" + "<br>");
+document.write("Final Result is: " + result);
