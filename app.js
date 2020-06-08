@@ -180,3 +180,86 @@ var inpfar = +prompt("Please Enter Temperature in Fahrenheit", "103");
 var outcel = ((inpfar - 32) * 5 / 9);
 
 document.write(inpfar + " F is " + outcel + " C " + "<br>");
+
+
+document.write(" <br> <br> <br>");
+
+
+var itemPrice1 = 650;
+var item1Qty = 3;
+
+var item1 = itemPrice1 * item1Qty;
+
+var itemPrice2 = 100;
+var item2Qty = 7;
+var item2 = itemPrice2 * item2Qty;
+
+var deliverycharges = 100;
+
+var total = item1 + item2 + deliverycharges;
+
+document.write("Price of item 1 is " + itemPrice1 + "<br>" + "Quantity of item 1 is  " + item1Qty + "<br>");
+
+document.write("Price of item 2 is " + itemPrice2 + "<br>" + "Quantity of item 2 is  " + item2Qty + "<br>");
+
+document.write("Total cost of your order is " + total);
+
+document.write(" <br> <br> <br>");
+
+
+var TotalMarks = 980;
+var obtainMarks = 804;
+var percentage = obtainMarks * 100 / TotalMarks;
+document.write("Total marks: " + TotalMarks + "<br>");
+document.write("Marks Obtained: " + obtainMarks + "<br>");
+document.write("Percentage : " + percentage + "%");
+
+document.write(" <br> <br> <br>");
+
+
+var PKRTotal = 10 * 104.80 + 25 * 28;
+
+document.write("Total Currency in PKR: " + PKRTotal);
+
+
+document.write(" <br> <br> <br>");
+
+var initVar = 3 + 5 * 10 / 2;
+document.write("Result is " + initVar);
+
+
+document.write(" <br> <br> <br>");
+
+
+var CurrYear = 2020;
+var BirthYear = 1994;
+var UserAge = CurrYear - BirthYear;
+document.write("Current Year : " + CurrYear + "<br>");
+document.write("Birth Year : " + BirthYear + "<br>");
+document.write("Your Age is : " + UserAge);
+
+
+document.write(" <br> <br> <br>");
+
+var radius = +prompt("Enter Radius of a Circle", "20");
+var circumf = 2 * 3.142 * radius;
+var circumarea = 3.142 * (radius * radius);
+document.write("<br><br>");
+document.write("Radius of a Circle is: " + radius + "<br>");
+document.write("Circumference is: " + circumf + "<br>");
+document.write("Area is: " + circumarea + "<br>");
+
+
+document.write(" <br> <br> <br>");
+
+var favSnack = prompt("Enter your Favourite Snack", "Lays")
+var currentAge = +prompt("Enter Your Current Age", "26")
+var maxAge = +prompt("Enter your Maximum Age", "70")
+var estPerday = +prompt("Enter Estimated Amount per Day Consumed", "5")
+var totalReq = (((maxAge - currentAge) * 365) * estPerday)
+document.write("The Lifetime Supply Calculator" + "<br><br>")
+document.write("Favourite Snack : " + favSnack + "<br>")
+document.write("Current Age : " + currentAge + "<br>")
+document.write("Estimated Maximum Age : " + maxAge + "<br>")
+document.write("Amount of Snacks Per Day : " + estPerday + "<br>")
+document.write("You Will need " + totalReq + " " + favSnack + " to last you until the ripe old age of " + maxAge)
