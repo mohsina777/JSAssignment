@@ -615,45 +615,188 @@ else if (TEMP > 10)
 
 
 //Chapter 9-11: Task No - 10
+//document.write(" <br>  <br><br>");
+//document.write("Chapter 9-11: Task No - 11 <br><br>");
+
+//var Val1 = +prompt("Enter Value 1", 20);
+//var Val2 = +prompt("Enter Value 2", 3);
+//var Operator = prompt("Enter Operation ","+");
+
+//var res;
+//switch(Operator)
+//{
+//    case "+":
+//       res = Val1 + Val2;
+//        break;
+//    case "-":
+//        res = Val1 + Val2;
+//        break;
+//    case "/":
+//        res = Val1 + Val2;
+//        break;
+//    case "*":
+//        res = Val1 + Val2;
+//        break;
+//    case "%":
+//        res = Val1 + Val2;
+//        break;
+//}
+
+
+//document.write("Result is : "+ res);
+
+
+
+
+
+//Chapter 12-13: Task No - 1
 document.write(" <br>  <br><br>");
-document.write("Chapter 9-11: Task No - 11 <br><br>");
+document.write("Chapter 9-11: Task No - 1 <br><br>");
 
-var Val1 = +prompt("Enter Value 1", 20);
-var Val2 = +prompt("Enter Value 2", 3);
-var Operator = prompt("Enter Operation ","+");
+var inp = prompt("Enter Number or String", "A");
+var asc = inp.charCodeAt(0);
 
-var res;
-switch(Operator)
+if (asc >= 65 && asc <= 90)
 {
-    case "+":
-       res = Val1 + Val2;
-        break;
-    case "-":
-        res = Val1 + Val2;
-        break;
-    case "/":
-        res = Val1 + Val2;
-        break;
-    case "*":
-        res = Val1 + Val2;
-        break;
-    case "%":
-        res = Val1 + Val2;
-        break;
+    document.write("UPPERCASE LETTER");
 }
- 
-
-document.write("Result is : "+ res);
-
-
-
-
+else if (asc >= 97 && asc <= 122) {
+    document.write("LOWERCASE LETTER");
+} else if (asc >=48 && asc <= 57) {
+    document.write("NUMBER ");
+}
 
 
 
 
+//Chapter 12-13: Task No - 2
+document.write(" <br>  <br><br>");
+document.write("Chapter 9-11: Task No - 2 <br><br>");
+
+var userval1 = +prompt("Enter Number 1", 10);
+var userval2 = +prompt("Enter Number 2", 25);
+
+if (userval1 > userval2) {
+    document.write(" Value 1 is Greater");
+} else if (userval1 < userval2) {
+    document.write(" Value 2 is Greater");
+} else if (userval1 === userval2) {
+    document.write("Both Values are Equal");
+}
+
+
+
+//Chapter 12-13: Task No - 3
+document.write(" <br>  <br><br>");
+document.write("Chapter 9-11: Task No - 3 <br><br>");
+
+var userVal = +prompt("Enter Value to Check Positive or Negative", 10);
+
+
+if (userVal > 0) 
+    document.write(" Value is Positive");
+else if(userVal < 0)
+    document.write(" Value is Negative");
+else if (userVal === 0)
+    document.write("Value is 0");
+else
+    document.write("Invalid Input");
+
+
+
+//Chapter 12-13: Task No - 4
+document.write(" <br>  <br><br>");
+document.write("Chapter 9-11: Task No - 4 <br><br>");
+
+var userVal = prompt("Enter Value to Check Vowel", "a");
+if (userVal.length === 1) {
+    var con = userVal.charCodeAt(0);
+    if (con === 097 || con === 101 || con === 105 || con === 111 || con === 117) {
+        document.write("Input is Vowel");
+    } else
+    {
+        document.write("Input is Not Vowel");
+    }
+
+
+}
+
+
+
+//Chapter 12-13: Task No - 5
+document.write(" <br>  <br><br>");
+document.write("Chapter 9-11: Task No - 5 <br><br>");
+
+var userPwd = prompt("Store your Password", "abc");
+
+var userPwdInp = prompt("Type your Password", "abc");
+
+var userPwdCnfrm = prompt("Re-Type your Password", "abc");
+
+if (userPwdInp === userPwdCnfrm && userPwd === userPwdInp) {
+    document.write(" “Correct! The password you entered matches the original password");
+} else {
+    document.write("Incorrect Password");
+}
+
+
+
+
+//Chapter 12-13: Task No - 6
+document.write(" <br>  <br><br>");
+document.write("Chapter 9-11: Task No - 6 <br><br>");
+
+var greeting;
+var hour = 13;
+if (hour < 18) {
+    greeting = "Good day";
+    document.write(greeting)
+}
+else {
+    greeting = "Good evening";
+    document.write(greeting)
+}
+
+
+//Chapter 12-13: Task No - 7
+document.write(" <br>  <br><br>");
+document.write("Chapter 12-13: Task No - 7 <br><br>");
+
+var horsinp = +prompt("Store your Password", 2300);
+if (horsinp >= 0000 && horsinp <= 1200)
+{
+    document.write("Good Morning...!");
+}
+else if (horsinp >= 1200 && horsinp <= 1700)
+{
+    document.write("Good Afternoon...!");
+}
+else if (horsinp >= 1700 && horsinp <= 2100)
+{
+    document.write("Good Evening...!");
+}
+else if (horsinp >= 2100 && horsinp <= 2359)
+{
+    document.write("Good Night...!");
+}
 
 
 
 
 
+//Chapter 17-20: Task No - 1
+//document.write(" <br>  <br><br>");
+//document.write("Chapter 17-20: Task No - 1 <br><br>");
+
+//var emptyMDA = [[], []];
+
+//var multiDA = new Array();
+//multiDA.push([0],[1],[2],[3]);
+//multiDA.push([2], [1], [0], [3]);
+
+//for (var i = 0; i <= multiDA.length; i++) {
+
+
+//document.write(multiDA[i]+ "<br>");
+
+//}
